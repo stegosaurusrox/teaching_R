@@ -7,7 +7,6 @@ install:
   - pip install nbfancy 
 
 script:
-  - nbfancy rerun --allow_errors
   - nbfancy render
   - nbfancy html
 
